@@ -17,6 +17,7 @@
     padding: 8px 0;
     border-bottom: 1px solid lighten($black,80);
     border-bottom: 1px solid rgba($black,.10);
+    font-weight:bold;
     @include font-size(18,no);
     @include clearfix;
     > a {
@@ -27,7 +28,8 @@
     float: right;
   }
   .entry-date {
-    @include font-size(14,no);
+    font-weight:normal;
+    @include font-size(16,no);
     text-transform: uppercase;
     display: none;
     @include media($medium) {
@@ -36,14 +38,15 @@
   }
   /* post excerpt */
   .excerpt {
+    font-weight:normal;
     display: block;
     float: none;
-    @include font-size(14, no, 16);
+    @include font-size(16, no, 16);
     @include media($medium) {
-      width: 70%;
+      width: 80%;
     }
     @include media($large) {
-      width: 60%;
+      width: 70%;
     }
   }
 }

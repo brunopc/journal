@@ -3,14 +3,18 @@
 - title: About
   url: /about/
 
-- title: Articles
-  url: /articles/
 
-- title: Blog
+# - title: Articles
+#   url: /articles/
+
+- title: All posts
   url: /blog/
 
-- title: Theme Setup
-  url: /theme-setup/
+- title: Tags
+  url: /tags/
+
+# - title: Theme Setup
+#   url: /theme-setup/
 
 - title: Search
   url: /search/
