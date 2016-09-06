@@ -5,8 +5,8 @@ locale: en_US
 description: Research and study journal.
 logo: triakisicosahedron.gif
 search: true
-url: http://localhost:4000
-# url: https://brunopc.github.io/journal
+# url: http://localhost:4000
+url: https://brunopc.github.io/journal
 
 # Jekyll configuration
 
